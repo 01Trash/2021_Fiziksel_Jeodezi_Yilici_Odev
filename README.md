@@ -1,2 +1,1 @@
-# fiziksel_jeodezi
-Fiziksel Jeodezi
+# Fiziksel Jeodezi
