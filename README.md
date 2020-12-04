@@ -12,6 +12,6 @@
 
 ![Legendre_5](https://pasteboard.co/JDqvGel.png)
 
-![Legendre_6](https://pasteboard.co/JDqvGel.png)
+![Legendre_6](https://i.hizliresim.com/fb6lY4.png)
 
 ![Legendre_7](https://i.imgur.com/foa21Gn.png)
