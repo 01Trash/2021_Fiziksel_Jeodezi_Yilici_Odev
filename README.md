@@ -6,4 +6,4 @@
 
 ![Legendre_2](https://pasteboard.co/JDqvlBd.png)
 
-![Legendre_3](https://pasteboard.co/JDqvlBd.png)
+![Legendre_3](https://pasteboard.co/JDqvGel.png)
