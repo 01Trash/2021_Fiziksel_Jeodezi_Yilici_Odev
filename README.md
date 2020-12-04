@@ -4,6 +4,6 @@
 
 ![Legendre_1](https://i.imgur.com/1hnV9UI.png)
 
-![Legendre_2](https://pasteboard.co/JDqvlBd.png)
+![Legendre_2](https://i.hizliresim.com/FPDEPH.png)
 
 ![Legendre_3](https://pasteboard.co/JDqvGel.png)
