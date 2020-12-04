@@ -6,7 +6,7 @@
 
 ![Legendre_2](https://i.hizliresim.com/FPDEPH.png)
 
-![Legendre_3](https://pasteboard.co/JDqvGel.png)
+![Legendre_3](https://i.hizliresim.com/q6pzyD.png)
 
 ![Legendre_4](https://pasteboard.co/JDqvGel.png)
 
