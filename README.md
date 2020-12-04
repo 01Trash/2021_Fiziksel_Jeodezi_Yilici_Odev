@@ -7,3 +7,11 @@
 ![Legendre_2](https://i.hizliresim.com/FPDEPH.png)
 
 ![Legendre_3](https://pasteboard.co/JDqvGel.png)
+
+![Legendre_4](https://pasteboard.co/JDqvGel.png)
+
+![Legendre_5](https://pasteboard.co/JDqvGel.png)
+
+![Legendre_6](https://pasteboard.co/JDqvGel.png)
+
+![Legendre_7](https://i.imgur.com/foa21Gn.png)
