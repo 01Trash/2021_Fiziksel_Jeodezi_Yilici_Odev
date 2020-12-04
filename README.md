@@ -10,7 +10,7 @@
 
 ![Legendre_4](https://pasteboard.co/JDqvGel.png)
 
-![Legendre_5](https://pasteboard.co/JDqvGel.png)
+![Legendre_5](https://i.imgur.com/kWK9jrk.png)
 
 ![Legendre_6](https://i.hizliresim.com/fb6lY4.png)
 
