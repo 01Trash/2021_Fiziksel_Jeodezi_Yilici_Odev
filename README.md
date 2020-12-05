@@ -16,5 +16,9 @@
 `Verilen bölgede tanımlanmış diferansiyel denklemlerin, sınır koşullarını da sağlayan denkleminin bulunması problemidir.`
 
 ```diff
-- deneme
+- 1
++ 2
+! 3
+# 4
+@@ 5@@
 ```
