@@ -22,3 +22,5 @@
 # 3
 @@ 4@@
 ```
+
+`Verilen bölgede tanımlanmış diferansiyel denklemlerin, sınır koşullarını da sağlayan denkleminin bulunması problemidir.`
