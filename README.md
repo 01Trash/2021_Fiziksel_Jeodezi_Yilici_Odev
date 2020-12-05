@@ -22,6 +22,3 @@
 # 4
 @@ 5@@
 ```
-
-<p><font face="tahoma" size="5" color="maroon">
-<b>Burada bir yazı var.</b></font></p>
