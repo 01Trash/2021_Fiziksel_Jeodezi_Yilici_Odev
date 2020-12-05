@@ -22,3 +22,21 @@
 # 4
 @@ 5@@
 ```
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.redtext {
+	color: red;
+}
+</style>
+</head>
+<body>
+
+<h1 class="redtext">Bu başlık kırmızı olur</h1>
+<p>Bu paragraf normal olur.</p>
+<p class="redtext">Bu paragraf kırmızı olur</p>
+
+</body>
+</html>
