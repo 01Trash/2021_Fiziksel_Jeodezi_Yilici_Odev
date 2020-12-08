@@ -1,4 +1,4 @@
-clear all; close all; clc;
+clear; close all; clc;
 
 syms t x
 
@@ -31,5 +31,34 @@ P_n_2_m_t = 1;
 P_n_1_m_1_t = 1;
 P_n_m_t = P_n_2_m_t + (2 * n - 1) * sqrt(1 - t.^2) * P_n_1_m_1_t;
 fprintf('P_n_m_t: %d\n', P_n_m_t); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
