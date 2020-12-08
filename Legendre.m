@@ -3,7 +3,7 @@ clear; close all; clc;
 syms t x
 
 n = 3;
-m = 0;
+m = 1;
 %Q = (0:0.01:pi/2);
 Q = 1;
 t = 1;  %t = cos(Q)
@@ -61,6 +61,23 @@ for n = 0:1:n
         P_n_t = ((2 * n - 1) / n) * t * P_n_1_t - ((n - 1) / n) * P_n_2_t;
         fprintf('P_n_t: %d\n', P_n_t);
     elseif n >= 2 && m >= 1 %Pnm(t) => P_n_m_t değeri
+        %Pn-2,m(t) => P_n_2_m_t hesabı
+        c = n - 2;
+        fprintf('c: %d\n', c);
+        c1 = n - 2 + m;
+        fprintf('c1: %d\n', c1);
+        P_n_2_m_t = ((-1).^m) * (1 / (2.^c * factorial(c))) * ...
+            ((1 - t.^2).^(m / 2)) * diff((t.^2 - 1).^c, t, c1);
+        fprintf('P_n_2_m_t: %d\n', P_n_2_m_t);
+        %Pn-1,m-1(t) => P_n_1_m_1_t hesabı
+        d = n - 1;
+        e = m - 1;
+        fprintf('d: %d\n', d);
+        d1 = n - 1 + m - 1;
+        fprintf('d1: %d\n', d1);
+        P_n_1_m_1_t = ((-1).^e) * (1 / (2.^d * factorial(d))) * ...
+            ((1 - t.^2).^(e / 2)) * diff((t.^2 - 1).^d, t, d1);
+        fprintf('P_n_1_m_1_t: %d\n', P_n_1_m_1_t);
         %Pnm(t) => P_n_m_t değeri hesabı
         P_n_m_t = P_n_2_m_t + (2 * n - 1) * sqrt(1 - t.^2) * P_n_1_m_1_t;
         fprintf('P_n_m_t: %d\n', P_n_m_t);
@@ -68,32 +85,5 @@ for n = 0:1:n
 end
 
 
-
-% for n = 1:n
-%     if n >= 2 && m >= 1 %Pnm(t) => P_n_m_t değeri
-%         P_n_m_t = P_n_2_m_t + (2 * n - 1) * sqrt(1 - t.^2) * P_n_1_m_1_t;
-%         fprintf('P_n_m_t: %d\n', P_n_m_t);
-%     elseif n >= 2 && m == 0 %Pn(t) => P_n_t değeri
-%         if n == 1 %Pnm => P_n_m değeri
-%             n = n - 1;
-%             fprintf('n: %d\n', n);
-%             P_n_1_t = ((-1).^m) * (1 / (2.^n * factorial(n))) * ...
-%                 ((1 - t.^2).^(m / 2)) * diff((t.^2 - 1).^n, t, x);
-%             fprintf('P_n_1_t: %d\n', P_n_1_t);
-%         elseif n == 2 %Pnm => P_n_m değeri
-%             n = n - 2;
-%             fprintf('n: %d\n', n);
-%             P_n_2_t = ((-1).^m) * (1 / (2.^n * factorial(n))) * ...
-%                 ((1 - t.^2).^(m / 2)) * diff((t.^2 - 1).^n, t, x);
-%             fprintf('P_n_2_t: %d\n', P_n_2_t);
-%         end
-%         P_n_t = ((2 * n - 1) / n) * t * P_n_1_t - ((n - 1) / n) * P_n_2_t;
-%         fprintf('P_n_t: %d\n', P_n_t);
-%     elseif n < 2 %Pnm => P_n_m değeri
-%         P_n_m = ((-1).^m) * (1 / (2.^n * factorial(n))) * ...
-%             ((1 - t.^2).^(m / 2)) * diff((t.^2 - 1).^n, t, x);
-%         fprintf('P_n_m: %d\n', P_n_m);
-%     end
-% end
 
 
