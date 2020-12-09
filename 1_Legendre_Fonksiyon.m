@@ -21,8 +21,8 @@ clear; close all; clc;
 
 syms t
 
-n = 2;
-m = 2;
+n = 3;
+m = 3;
 %t = cos(Q)
 %Q = (0:0.01:pi/2);
 x = n + m;
