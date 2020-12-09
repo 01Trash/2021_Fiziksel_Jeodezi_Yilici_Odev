@@ -25,7 +25,6 @@ n = 2;
 m = 2;
 %t = cos(Q)
 %Q = (0:0.01:pi/2);
-Q = 1;
 x = n + m;
 
 %Legendre Fonksiyonları
@@ -72,7 +71,7 @@ for m = 0:1:m
         P_n_t_fun = matlabFunction(P_n_t);
         t_val = cos(0:1:pi);
         P_n_t_fun(t_val)
-        fprintf('P_n_m_fun: %d\n', P_n_t_fun);
+        fprintf('P_n_m_fun: %s\n', P_n_t_fun);
         
     %Pnm(t) => P_n_m_t değeri (49) ∀ n ≥ 2, m ≥ 1
     elseif n >= 2 && m >= 1 
