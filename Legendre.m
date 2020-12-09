@@ -38,8 +38,7 @@ for m = 0:1:m
         %Denklemi numerikleştirme
         P_n_m_fun = matlabFunction(P_n_m);
         t_val = cos(0:0.01:pi);
-        P_n_m_fun(t_val)
-        fprintf('P_n_m_fun: %d\n', P_n_m_fun);
+        P_n_m_fun(t_val);
         %Ekrana şekli çizdirme
         
     %Pn(t) => P_n_t değeri (48) ∀ n ≥ 2, m = 0
@@ -69,9 +68,8 @@ for m = 0:1:m
         
         %Denklemi numerikleştirme
         P_n_t_fun = matlabFunction(P_n_t);
-        t_val = cos(0:1:pi);
-        P_n_t_fun(t_val)
-        fprintf('P_n_m_fun: %s\n', P_n_t_fun);
+        t_val = cos(0:0.01:pi);
+        P_n_t_fun(t_val);
         
     %Pnm(t) => P_n_m_t değeri (49) ∀ n ≥ 2, m ≥ 1
     elseif n >= 2 && m >= 1 
@@ -98,9 +96,8 @@ for m = 0:1:m
         
         %Denklemi numerikleştirme
         P_n_m_t_fun = matlabFunction(P_n_m_t);
-        t_val = cos(0:1:pi);
-        P_n_m_t_fun(t_val)
-        fprintf('P_n_m_fun: %d\n', P_n_m_t_fun);
+        t_val = cos(0:0.01:pi);
+        P_n_m_t_fun(t_val);
     end
 end
 
