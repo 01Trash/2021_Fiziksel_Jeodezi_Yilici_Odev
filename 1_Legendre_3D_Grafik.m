@@ -28,6 +28,7 @@ for m = 0:1:m
         hold on
         plot(P_n_m_fun(t_val))
         hold off
+        %Şekli çizdirme 2d
     end
 end
 
