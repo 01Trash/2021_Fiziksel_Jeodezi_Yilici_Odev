@@ -35,6 +35,7 @@ for m = 0:1:m
         P_n_m = ((-1).^m) * (1 / (2.^n * factorial(n))) * ...
         ((1 - t.^2).^(m / 2)) * diff((t.^2 - 1).^n, t, x);
         fprintf('P_n_m: %s\n', P_n_m);
+        
         %Denklemi numerikleştirme
         P_n_m_fun = matlabFunction(P_n_m);
         t_val = cos(0:0.01:pi);
@@ -67,6 +68,12 @@ for m = 0:1:m
         P_n_t = ((2 * n - 1) / n) * t * P_n_1_t - ((n - 1) / n) * P_n_2_t;
         fprintf('P_n_t: %s\n', P_n_t);
         
+        %Denklemi numerikleştirme
+        P_n_t_fun = matlabFunction(P_n_t);
+        t_val = cos(0:1:pi);
+        P_n_t_fun(t_val)
+        fprintf('P_n_m_fun: %d\n', P_n_t_fun);
+        
     %Pnm(t) => P_n_m_t değeri (49) ∀ n ≥ 2, m ≥ 1
     elseif n >= 2 && m >= 1 
         %Pn-2,m(t) => P_n_2_m_t hesabı
@@ -89,6 +96,7 @@ for m = 0:1:m
         %Pnm(t) => P_n_m_t değeri hesabı
         P_n_m_t = P_n_2_m_t + (2 * n - 1) * sqrt(1 - t.^2) * P_n_1_m_1_t;
         fprintf('P_n_m_t: %s\n', P_n_m_t);
+        
         %Denklemi numerikleştirme
         P_n_m_t_fun = matlabFunction(P_n_m_t);
         t_val = cos(0:1:pi);
@@ -96,9 +104,4 @@ for m = 0:1:m
         fprintf('P_n_m_fun: %d\n', P_n_m_t_fun);
     end
 end
-
-
-
-
-
 
