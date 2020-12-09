@@ -2,8 +2,8 @@ clear; close all; clc;
 
 syms t
 
-n = 5;
-m = 5;
+n = 4;
+m = 4;
 %t = cos(Q)
 %Q = (0:0.01:pi/2);
 
@@ -15,7 +15,7 @@ for m = 0:1:m
     fprintf('P_n_m: %s\n', P_n_m);
     
     %Denklemi numerikleştirme
-    if m > 1
+    if m >= 1
         P_n_m_fun = matlabFunction(P_n_m);
         t_val = cos(0:pi/100:pi);
         P_n_m_fun(t_val);
