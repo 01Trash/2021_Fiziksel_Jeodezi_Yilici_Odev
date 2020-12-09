@@ -21,8 +21,8 @@ clear; close all; clc;
 
 syms t
 
-n = 2;
-m = 2;
+n = 5;
+m = 5;
 %t = cos(Q)
 %Q = (0:0.01:pi/2);
 x = n + m;
@@ -40,6 +40,7 @@ for m = 0:1:m
         t_val = cos(0:pi/100:pi);
         P_n_m_fun(t_val);
         %Şekli çizdirme
+        figure
         plot(P_n_m_fun(t_val))
         
     %Pn(t) => P_n_t değeri (48) ∀ n ≥ 2, m = 0
@@ -72,6 +73,7 @@ for m = 0:1:m
         t_val = cos(0:pi/100:pi);
         P_n_t_fun(t_val);
         %Şekli çizdirme
+        figure
         plot(P_n_t_fun(t_val))
         
     %Pnm(t) => P_n_m_t değeri (49) ∀ n ≥ 2, m ≥ 1
@@ -102,6 +104,7 @@ for m = 0:1:m
         t_val = cos(0:pi/100:pi);
         P_n_m_t_fun(t_val);
         %Şekli çizdirme
+        figure
         plot(P_n_m_t_fun(t_val))
     end
 end
