@@ -37,10 +37,10 @@ for m = 0:1:m
         
         %Denklemi numerikleştirme
         P_n_m_fun = matlabFunction(P_n_m);
-        t_val = cos(0:0.01:pi);
+        t_val = cos(0:pi/100:pi);
         P_n_m_fun(t_val);
         %Şekli çizdirme
-        plot(t_val)
+        plot(P_n_m_fun(t_val))
         
     %Pn(t) => P_n_t değeri (48) ∀ n ≥ 2, m = 0
     elseif n >= 2 && m == 0 
@@ -69,10 +69,10 @@ for m = 0:1:m
         
         %Denklemi numerikleştirme
         P_n_t_fun = matlabFunction(P_n_t);
-        t_val = cos(0:0.01:pi);
+        t_val = cos(0:pi/100:pi);
         P_n_t_fun(t_val);
         %Şekli çizdirme
-        plot(t_val)
+        plot(P_n_t_fun(t_val))
         
     %Pnm(t) => P_n_m_t değeri (49) ∀ n ≥ 2, m ≥ 1
     elseif n >= 2 && m >= 1 
@@ -99,10 +99,10 @@ for m = 0:1:m
         
         %Denklemi numerikleştirme
         P_n_m_t_fun = matlabFunction(P_n_m_t);
-        t_val = cos(0:0.01:pi);
+        t_val = cos(0:pi/100:pi);
         P_n_m_t_fun(t_val);
         %Şekli çizdirme
-        plot(t_val)
+        plot(P_n_m_t_fun(t_val))
     end
 end
 
