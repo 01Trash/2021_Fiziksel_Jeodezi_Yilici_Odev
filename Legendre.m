@@ -21,8 +21,8 @@ clear; close all; clc;
 
 syms t
 
-n = 1;
-m = 1;
+n = 2;
+m = 0;
 %t = cos(Q)
 %Q = (0:0.01:pi/2);
 Q = 1;
@@ -34,10 +34,13 @@ for n = 0:1:n
         P_n_m = ((-1).^m) * (1 / (2.^n * factorial(n))) * ...
         ((1 - t.^2).^(m / 2)) * diff((t.^2 - 1).^n, t, x);
         fprintf('P_n_m: %s\n', P_n_m);
-        % Denklemi numerikleştirme
-        P_n_m_fun = matlabFunction(P_n_m);
-        t_val = cos(0:0.1:1);
-        P_n_m_fun(t_val)
+        %Denklemi numerikleştirme
+        if n > 1
+            P_n_m_fun = matlabFunction(P_n_m);
+            t_val = cos(0:0.1:1);
+            P_n_m_fun(t_val)
+            fprintf('P_n_m_fun: %d\n', P_n_m_fun);
+        end
         %Ekrana şekli çizdirme
         
     elseif n >= 2 && m == 0 %Pn(t) => P_n_t değeri
@@ -62,7 +65,7 @@ for n = 0:1:n
         fprintf('P_n_2_t: %d\n', P_n_2_t);
         %Pn(t) => P_n_t değeri hesabı
         P_n_t = ((2 * n - 1) / n) * t * P_n_1_t - ((n - 1) / n) * P_n_2_t;
-        fprintf('P_n_t: %d\n', P_n_t);
+        fprintf('P_n_t: %s\n', P_n_t);
     elseif n >= 2 && m >= 1 %Pnm(t) => P_n_m_t değeri
         %Pn-2,m(t) => P_n_2_m_t hesabı
         c = n - 2;
@@ -83,7 +86,7 @@ for n = 0:1:n
         fprintf('P_n_1_m_1_t: %d\n', P_n_1_m_1_t);
         %Pnm(t) => P_n_m_t değeri hesabı
         P_n_m_t = P_n_2_m_t + (2 * n - 1) * sqrt(1 - t.^2) * P_n_1_m_1_t;
-        fprintf('P_n_m_t: %d\n', P_n_m_t);
+        fprintf('P_n_m_t: %s\n', P_n_m_t);
     end
 end
 
