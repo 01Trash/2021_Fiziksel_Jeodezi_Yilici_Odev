@@ -21,8 +21,11 @@ clear; close all; clc;
 
 syms t
 
-n = 4;
-m = 4;
+%n ve m değerlerini isteme
+n = input("n: ");
+m = input("m: ");
+%n = 3;
+%m = 3;
 %t = cos(Q)
 %Q = (0:0.01:pi/2);
 x = n + m;
