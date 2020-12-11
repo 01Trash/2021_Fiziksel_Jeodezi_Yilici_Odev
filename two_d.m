@@ -21,8 +21,8 @@ clear; close all; clc;
 
 syms t
 
-n = 3;
-m = 3;
+n = 4;
+m = 4;
 %t = cos(Q)
 %Q = (0:0.01:pi/2);
 x = n + m;
@@ -71,7 +71,7 @@ for m = 0:1:m
         
         %Denklemi numerikleştirme
         P_n_t_fun = matlabFunction(P_n_t);
-        t_val = cos(0:pi/100:pi);
+        t_val = cos(0:0.1:pi);
         P_n_t_fun(t_val);
         %Şekli çizdirme 2d
         hold on
@@ -103,7 +103,7 @@ for m = 0:1:m
         
         %Denklemi numerikleştirme
         P_n_m_t_fun = matlabFunction(P_n_m_t);
-        t_val = cos(0:pi/100:pi);
+        t_val = cos(0:0.1:pi);
         P_n_m_t_fun(t_val);
         %Şekli çizdirme 2d
         hold on
