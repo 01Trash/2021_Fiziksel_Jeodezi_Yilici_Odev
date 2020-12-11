@@ -12,15 +12,3 @@
 ![Legendre_7](https://i.imgur.com/foa21Gn.png)
 
 
-
- **2)  Sınır değer problemi nedir? Değişik mühendislik dallarında 2 ve 3 boyutlu yüzeylere konu olan sınır değer problemlerini örneklerle açıklayan rapor hazırlayınız.**
-
-```diff
-+ Verilen bölgede tanımlanmış diferansiyel denklemlerin, sınır koşullarını da sağlayan denkleminin bulunması problemidir.
-- 1
-! 2
-# 3
-@@ 4@@
-```
-
-`Verilen bölgede tanımlanmış diferansiyel denklemlerin, sınır koşullarını da sağlayan denkleminin bulunması problemidir.`
