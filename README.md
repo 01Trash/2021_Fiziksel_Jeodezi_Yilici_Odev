@@ -59,11 +59,11 @@ Sınır koşulundan y(0) = 0 biri elde eder
 
 ki bunun anlamı B = 0. Sınır koşulundan y(π /2) = 2 bulur
 
-![7]()
+![7](https://i.imgur.com/H1YCSLM.jpg)
 
 ve bu yüzden A = 2. Sınır koşullarının empoze edilmesinin benzersiz bir çözüm belirlemesine izin verdiğini görüyoruz, bu durumda 
 
-![8]()
+![8](https://i.hizliresim.com/NUEpae.jpg)
 
 Fonksiyonun kendi değerini belirten bir sınır koşulu, bir Dirichlet sınır koşulu veya birinci tip sınır koşulu. Örneğin, bir demir çubuğun bir ucu mutlak sıfırda tutulursa, o zaman problemin değeri uzayda o noktada bilinecektir.
 Fonksiyonun normal türevinin değerini belirten bir sınır koşulu, bir Neumann sınır koşulu veya ikinci tür sınır koşuludur. Örneğin, bir demir çubuğun bir ucunda bir ısıtıcı varsa, o zaman sabit bir oranda enerji eklenir, ancak gerçek sıcaklık bilinmez.
@@ -71,7 +71,7 @@ Sınır, normal türeve ve değişkenin kendisine bir değer veren bir eğri vey
 
 
 
-![9]()
+![9](https://i.imgur.com/2KC68XY.jpg)
 
 
 
@@ -80,7 +80,7 @@ Bu idealleştirilmiş 2D çubuğun sıcaklığını açıklamak için bir fonksi
 
 
 
-![10]()
+![10](https://i.hizliresim.com/GYdyYj.jpg)
 
 
 
