@@ -23,7 +23,7 @@ Uygulamalarda faydalı olabilmesi için, bir sınır değeri problemi iyi bir ş
 
 
 
-Bir diferansiyel denklemin çözüldüğü alan ve sınırları =>
+Bir diferansiyel denklemin çözüldüğü alan ve sınırları => ![Legendre_1](https://i.imgur.com/6ZgtYSm.jpg)
 
 
 
