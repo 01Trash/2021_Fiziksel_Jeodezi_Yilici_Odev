@@ -74,7 +74,7 @@ for m = 0:1:m
         
         %Denklemi numerikleştirme
         P_n_t_fun = matlabFunction(P_n_t);
-        t_val = cos(0:0.1:pi);
+        t_val = cos(0:pi/180:pi);
         P_n_t_fun(t_val);
         %Şekli çizdirme 2d
         hold on
@@ -106,7 +106,7 @@ for m = 0:1:m
         
         %Denklemi numerikleştirme
         P_n_m_t_fun = matlabFunction(P_n_m_t);
-        t_val = cos(0:0.1:pi);
+        t_val = cos(0:pi/180:pi);
         P_n_m_t_fun(t_val);
         %Şekli çizdirme 2d
         hold on
