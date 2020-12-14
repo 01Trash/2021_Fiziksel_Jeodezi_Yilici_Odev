@@ -42,28 +42,28 @@ Sorun hem mekana hem de zamana bağlıysa, sorunun değeri tüm zaman için beli
 
 Somut olarak, bir sınır değerinin bir örneği (tek bir uzamsal boyutta) problemdir,
 
-
+![3](https://i.imgur.com/9oSTrIO.jpg)
 
 bilinmeyen işlev için çözülecek sınır şartları ile
 
-
+![4](https://i.hizliresim.com/hsScBI.jpg)
 
 Sınır koşulları olmadan, bu denklemin genel çözümü şudur: 
 
-
+![5](https://i.imgur.com/mokPbzU.jpg)
 
 Sınır koşulundan y(0) = 0 biri elde eder
 
-
+![6](https://i.hizliresim.com/bu6x4X.jpg)
 
 
 ki bunun anlamı B = 0. Sınır koşulundan y(π /2) = 2 bulur
 
-
+![7]()
 
 ve bu yüzden A = 2. Sınır koşullarının empoze edilmesinin benzersiz bir çözüm belirlemesine izin verdiğini görüyoruz, bu durumda 
 
-
+![8]()
 
 Fonksiyonun kendi değerini belirten bir sınır koşulu, bir Dirichlet sınır koşulu veya birinci tip sınır koşulu. Örneğin, bir demir çubuğun bir ucu mutlak sıfırda tutulursa, o zaman problemin değeri uzayda o noktada bilinecektir.
 Fonksiyonun normal türevinin değerini belirten bir sınır koşulu, bir Neumann sınır koşulu veya ikinci tür sınır koşuludur. Örneğin, bir demir çubuğun bir ucunda bir ısıtıcı varsa, o zaman sabit bir oranda enerji eklenir, ancak gerçek sıcaklık bilinmez.
@@ -71,7 +71,7 @@ Sınır, normal türeve ve değişkenin kendisine bir değer veren bir eğri vey
 
 
 
-
+![9]()
 
 
 
@@ -80,7 +80,7 @@ Bu idealleştirilmiş 2D çubuğun sıcaklığını açıklamak için bir fonksi
 
 
 
-
+![10]()
 
 
 
