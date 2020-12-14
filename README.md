@@ -11,6 +11,15 @@
 ![Legendre_6](https://i.hizliresim.com/fb6lY4.png)
 ![Legendre_7](https://i.imgur.com/foa21Gn.png)
 
+## Legendre Fonksiyonları;
+
+![L_F](https://i.imgur.com/9WzQw4b.png)
+![L_F](https://i.hizliresim.com/UPihVY.jpg)
+
+## Normalleştirilmiş Legendre Fonksiyonları;
+
+![N_L_F](https://i.imgur.com/R2Dtpan.png)
+![N_L_F](https://i.hizliresim.com/JrH5GQ.jpg)
 
  **2) Sınır değer problemi nedir? Değişik mühendislik dallarında 2 ve 3 boyutlu yüzeylere konu olan sınır değer problemlerini örneklerle açıklayan rapor hazırlayınız.**
  
